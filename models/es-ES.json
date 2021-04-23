@@ -1,0 +1,75 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "trivia trivia",
+        "intents": [
+          {
+            "name": "AMAZON.FallbackIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          },
+          {
+            "name": "AnswerIntent",
+            "samples": [
+              "la respuesta es {Answer}",
+              "mi respuesta es {Answer}",
+              "es {Answer}",
+              "{Answer} es mi respuesta",
+              "{Answer}"
+            ],
+            "slots": [
+              {
+                "name": "Answer",
+                "type": "AMAZON.NUMBER",
+                "samples": []
+              }
+            ]
+          },
+          {
+            "name": "DontKnowIntent",
+            "samples": [
+              "no lo sé",
+              "no sé",
+              "no conozco esa respuesta",
+              "sigamos",
+              "estoy perdido",
+              "no sé eso",
+              "quién sabe",
+              "no he oído esta pregunta"
+            ],
+            "slots": []
+          },
+          {
+            "name": "AMAZON.StartOverIntent",
+            "samples": [
+              "iniciar juego",
+              "nuevo juego",
+              "iniciemos",
+              "iniciar un juego nuevo"
+            ]
+          },
+          {
+            "name": "AMAZON.RepeatIntent"
+          },
+          {
+            "name": "AMAZON.YesIntent"
+          },
+          {
+            "name": "AMAZON.NoIntent"
+          }
+        ]
+      }
+    }
+  }
+  
